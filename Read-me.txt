@@ -1,0 +1,41 @@
+
+Full name and emails of all group members:
+
+	Abid Al Labib: abidal.labib@ucalgary.ca
+	Long Tran: long.tran2@ucalgary.ca
+	Ragya Mittal: ragya.mittal1@ucalgary.ca
+
+************************************************************************************************************************************************
+
+Instructions to Run the App successfully:
+
+	Step 1: Create a new schema called 409project in mySql workbench
+	Step 2: Change the password to root in the two Database.java files in Server.Controller and Server.Database to your current roor password
+	Step 3: Run the class DataWrite.java in the package Server.Database 
+	Step 4: Run the server from the class ServerController.java in the package Server.Controller
+	Step 5: Run the Client from the class CommunicationController.java in the package Client.Controller
+
+	If the steps mentioned above are followed a login page should appear. 
+	You are set to test!!
+
+	For first year student:
+	Username: generic3
+	Password: 12345678
+	
+	For second year student:
+	Username: secondyear
+	Password: 12345678
+
+	Alternatively, to login to the admin account use the following:
+	Username: admin1
+	Password: 12345678
+
+************************************************************************************************************************************************
+
+Bonus Features Implemented:
+
+	1. The user is able to login to a specific student account and alter courses for that particular student.
+	2. The user is able to logout of an account to possibly login as a different account or to simply quit.
+	3. Created a separate GUI for an Admin with the functionality of creating new courses.
+
+************************************************************************************************************************************************
